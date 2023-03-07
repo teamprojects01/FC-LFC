@@ -9,7 +9,7 @@ const Display = ({ tableHeadRow, options, i }) => {
           key={data + i + j}
           title={
             (j == 0 && "Site Status") ||
-            (j == 1 && "Store Details") ||
+            (j == 1 && "Warehouse Details") ||
             (j == 12 && "GST Details") ||
             (j == 15 && "Agreement Details") ||
             (j == 33 && "Compliance Details")
