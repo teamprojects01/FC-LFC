@@ -11,7 +11,7 @@ const Display = ({ tableHeadRow, options, i }) => {
             (j == 0 && "Site Status") ||
             (j == 1 && "Warehouse Details") ||
             (j == 12 && "GST Details") ||
-            (j == 15 && "Agreement Details") ||
+            (j == 16 && "Agreement Details") ||
             (j == 33 && "Compliance Details")
           }
           data={data}
